@@ -1,0 +1,29 @@
+254 nodes, 500 edges,500 transactions ethereum
+generation time: 235.704457118 sec
+98 weak components
+24 cut vertices# nodes that received <0.0001ETH:187
+# nodes that received >0.0001ETHand <0.001ETH:12
+# nodes that received >0.001ETHand <0.01ETH:16
+# nodes that received >0.01ETHand <1ETH:26
+# nodes that received >1ETHand <10ETH:13
+# nodes that received >10ETHand <100ETH:0
+# nodes that received >100ETHand <1000ETH:0
+# nodes that received >1000ETHand <10000ETH:0
+# nodes that received >10000ETH:0
+# nodes that gave <0.0001ETH191
+# nodes that gave >0.0001ETHand <0.001ETH:4
+# nodes that gave >0.001ETHand <0.01ETH:7
+# nodes that gave >0.01ETHand <1ETH:39
+# nodes that gave >1ETHand <10ETH:13
+# nodes that gave >10ETHand <100ETH:0
+# nodes that gave >100ETHand <1000ETH:0
+# nodes that gave >1000ETHand <10000ETH:0
+# nodes that gave >100000
+# connected components with <1 vertices: 0
+# connected components with >1 vertices and <5 vertices: 93
+# connected components with >5 vertices and <10 vertices: 4
+# connected components with >10 vertices and <50 vertices: 1
+# connected components with >50 vertices and <100 vertices: 0
+# connected components with >100 vertices and <500 vertices: 0
+# connected components with >500 vertices and <1000 vertices: 0
+# connected components with >1000 vertices: 0

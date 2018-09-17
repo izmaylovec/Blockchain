@@ -1,0 +1,7 @@
+30448 nodes, 36171 edges,5000 first transactions of 06 aug 2018 on bitcoin
+generation time: 47.85151956299978 sec
+1070 multitransactions transactions
+5 bitcoin generation transactions (not drawn)
+3 self-transactions(not drawn)
+2513 weak components
+3494 cut vertices# nodes that received <0.0001 BTC: 10408# nodes that received >0.0001 BTC and <0.001 BTC: 1187# nodes that received >0.001 BTC and <0.01 BTC: 9796# nodes that received >0.01 BTC and <1 BTC: 7973# nodes that received >1 BTC and <10 BTC: 895# nodes that received >10 BTC and <100 BTC: 145# nodes that received >100 BTC and <1000 BTC: 40# nodes that received >1000 BTC and <10000 BTC: 3# nodes that received >10000 BTC: 1# nodes that gave <0.0001 BTC: 19216# nodes that gave >0.0001 BTC and <0.001 BTC: 233# nodes that gave >0.001 BTC and <0.01 BTC: 1203# nodes that gave >0.01 BTC and <1 BTC: 6907# nodes that gave >1 BTC and <10 BTC: 2123# nodes that gave >10 BTC and <100 BTC: 710# nodes that gave >100 BTC and <1000 BTC: 52# nodes that gave >1000 BTC and <10000 BTC: 3# nodes that gave >100001# connected components with <1 vertices: 0# connected components with >1 vertices and <5 vertices: 2165# connected components with >5 vertices and <10 vertices: 233# connected components with >10 vertices and <50 vertices: 109# connected components with >50 vertices and <100 vertices: 2# connected components with >100 vertices and <500 vertices: 2# connected components with >500 vertices and <1000 vertices: 0# connected components with >1000 vertices: 2

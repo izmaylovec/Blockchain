@@ -1,0 +1,67 @@
+661297 nodes, 1454809 edges,222327 bitcoin transactions
+24650 weak components
+126343 cut vertices
+# nodes that received < 0.0001 BTC :222857
+# nodes that received >0.0001 BTC and < 0.001 BTC :39096
+# nodes that received >0.001 BTC and < 0.01 BTC :147031
+# nodes that received >0.01 BTC and < 1 BTC :214001
+# nodes that received >1 BTC and < 10 BTC :30803
+# nodes that received >10 BTC and < 100 BTC :6327
+# nodes that received >100 BTC and < 1000 BTC :1104
+# nodes that received >1000 BTC and < 10000 BTC :73
+# nodes that received > 10000 BTC :5
+
+# nodes that gave < 0.0001 BTC 230821
+# nodes that gave > 0.0001 BTC and < 0.001 BTC :9211
+# nodes that gave > 0.001 BTC and < 0.01 BTC :52221
+# nodes that gave > 0.01 BTC and < 1 BTC :198856
+# nodes that gave > 1 BTC and < 10 BTC :117038
+# nodes that gave > 10 BTC and < 100 BTC :45345
+# nodes that gave > 100 BTC and < 1000 BTC :6792
+# nodes that gave > 1000 BTC and < 10000 BTC :847
+# nodes that gave > 10000166
+
+# connected components with <1 vertices: 0; 0 vertices
+# connected components with >1 vertices and <5 vertices: 21821; 69518 vertices
+# connected components with >5 vertices and <10 vertices: 2084; 15008 vertices
+# connected components with >10 vertices and <50 vertices: 676; 12420 vertices
+# connected components with >50 vertices and <100 vertices: 25; 1764 vertices
+# connected components with >100 vertices and <500 vertices: 39; 8465 vertices
+# connected components with >500 vertices and <1000 vertices: 2; 1499 vertices
+# connected components with >1000 vertices: 3; 552623 vertices
+
+top givers:
+0. 1G47mSr3oANXMafVrR8UC4pzV7FEAzo3r9 119821.47354508993
+1. 17A16QmavnUfCW11DAApiJxp7ARnxN5pGX 119035.72668801008
+2. 1Kr6QSydW9bFQG1mXiPNNu6WpJGmUa9i1g 52960.16027934996
+3. 35zQ2FrXks9kF4cT1A1Rc1TjH1sUNyMAbx 15499.88148906
+4. 3AXotBQJvG8ieePnMX4AhhysFYoVD5XQ18 15499.88148906
+5. 3EzfQS11e8gbBRF6j9LKHsqtUTaCas4kUh 15499.88148906
+6. 3QLZV2dyiYYWgLs76HS5ttBdyGVLTg3B8Y 15499.88148906
+7. 3BYSMerV9swK2rsnu5WFCAjGmeC6SnQjKx 15499.88148906
+8. 38mQDUkHpjcSRdTwKgtpeh3Quxs2j2tQfM 15499.88148906
+9. 39VSZVTwLTuLMEtikfrwyhJFskbRf2c5Wz 15499.88148906
+
+top receivers:
+0. 1G47mSr3oANXMafVrR8UC4pzV7FEAzo3r9 120461.51308186946
+1. 17A16QmavnUfCW11DAApiJxp7ARnxN5pGX 118403.25089374001
+2. 1Kr6QSydW9bFQG1mXiPNNu6WpJGmUa9i1g 51723.75938672003
+3. 3N9an8wv4SYi3FVXs3xR5k2AqXeNZiw2mf 15499.88148906
+4. 1DG4thSNaDv9Nar9QMeWyQjK69dv9zUexy 10687.57121364
+5. 329koRvovTyNnd4ADrpR2uJHzXxfvKxta5 9525.798859810002
+6. 334mfcKCGCqqJLUNtmZQL4GQKsuuTJ9D7t 9399.15896279
+7. 34RkccPDcmbBQDhw6kmvJpnzJ2mZs8nimR 8188.16802485
+8. 3CfRKFCFAjqGEkJuytuGg31tNBxyLzAKVP 7646.58221672
+9. 1NDyJtNTjmwk5xPNhjgAMu4HDHigtobu1s 7627.223961039994
+
+top interactors:
+0. 1NDyJtNTjmwk5xPNhjgAMu4HDHigtobu1s 20829
+1. 3FxUA8godrRmxgUaPv71b3XCUxcoCLtUx2 13483
+2. 13bEmjp8HKtDbzoTmhH3ZAWRSWLdGJ1acR 5786
+3. 1GX28yLjVWux7ws4UQ9FB4MnLH4UKTPK2z 4699
+4. Невозможно декодировать выходной адрес 4371
+5. 1N52wHoVR79PMDishab2XmRHsbekCdGquK 3753
+6. 3EktbnBAdyAkFKR9as61G3XoBee5iqUuq5 2463
+7. 14AcKEr19gHJvgwQhK7sfFm6YJGmoZZoqu 2310
+8. 3LaNNTg87XjTtXAqs55WV5DyWASEZizCXZ 2309
+9. 3422VtS7UtCvXYxoXMVp6eZupR252z85oC 2142

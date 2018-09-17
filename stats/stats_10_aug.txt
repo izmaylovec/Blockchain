@@ -1,0 +1,67 @@
+688910 nodes, 2269440 edges,226149 bitcoin transactions
+21940 weak components
+122587 cut vertices
+# nodes that received < 0.0001 BTC :207616
+# nodes that received >0.0001 BTC and < 0.001 BTC :40979
+# nodes that received >0.001 BTC and < 0.01 BTC :179279
+# nodes that received >0.01 BTC and < 1 BTC :223446
+# nodes that received >1 BTC and < 10 BTC :29842
+# nodes that received >10 BTC and < 100 BTC :6697
+# nodes that received >100 BTC and < 1000 BTC :986
+# nodes that received >1000 BTC and < 10000 BTC :62
+# nodes that received > 10000 BTC :3
+
+# nodes that gave < 0.0001 BTC 239049
+# nodes that gave > 0.0001 BTC and < 0.001 BTC :7904
+# nodes that gave > 0.001 BTC and < 0.01 BTC :51059
+# nodes that gave > 0.01 BTC and < 1 BTC :205352
+# nodes that gave > 1 BTC and < 10 BTC :127568
+# nodes that gave > 10 BTC and < 100 BTC :50813
+# nodes that gave > 100 BTC and < 1000 BTC :6901
+# nodes that gave > 1000 BTC and < 10000 BTC :246
+# nodes that gave > 1000018
+
+# connected components with <1 vertices: 0; 0 vertices
+# connected components with >1 vertices and <5 vertices: 19397; 61863 vertices
+# connected components with >5 vertices and <10 vertices: 2001; 14451 vertices
+# connected components with >10 vertices and <50 vertices: 507; 9066 vertices
+# connected components with >50 vertices and <100 vertices: 20; 1451 vertices
+# connected components with >100 vertices and <500 vertices: 10; 1399 vertices
+# connected components with >500 vertices and <1000 vertices: 0; 0 vertices
+# connected components with >1000 vertices: 5; 600680 vertices
+
+top givers:
+0. 1G47mSr3oANXMafVrR8UC4pzV7FEAzo3r9 114284.88836988992
+1. 1Kr6QSydW9bFQG1mXiPNNu6WpJGmUa9i1g 61881.40570124998
+2. 334mfcKCGCqqJLUNtmZQL4GQKsuuTJ9D7t 13925.55581781
+3. 1JeNvVgN63t81kxpbFvNa9o6sBpazjyg4r 13444.882515970006
+4. 1HqrMM4qnGbtsTqmjKZoWwzBCQbEyseVbo 12264.150590810003
+5. 1DG4thSNaDv9Nar9QMeWyQjK69dv9zUexy 10702.275376040001
+6. 13VMBDTmUkd9y5q2KcQWyDn5xSF5ZtyEbN 10286.742730610002
+7. 1J4ACqtkNKqjweGoiCxbbJfcM1ySYVz5cp 10252.643107590004
+8. 1aXtK4m5VjC7VLPMusvFuxn1gWn2EX6DX 10087.099985010002
+9. 19bwM3S3jQTRsukk5ZChdAAJfyW7d5Et9X 10065.148632370001
+
+top receivers:
+0. 1G47mSr3oANXMafVrR8UC4pzV7FEAzo3r9 114356.91748607965
+1. 1Kr6QSydW9bFQG1mXiPNNu6WpJGmUa9i1g 57851.14122242999
+2. 334mfcKCGCqqJLUNtmZQL4GQKsuuTJ9D7t 13925.452881000001
+3. 17re6arapWbgWbr1wM93oHamoJ16eudia1 9928.79811592
+4. 329koRvovTyNnd4ADrpR2uJHzXxfvKxta5 8515.400513999999
+5. 33MCE7acCwmoCyKZiQ3xsRGhyFfj2zbJyi 8003.400000000001
+6. 3QUjCVEBTbdb2spVZ3f87NM8Qw4sz9WsX7 7271.818494020008
+7. 1NDyJtNTjmwk5xPNhjgAMu4HDHigtobu1s 6871.5272722599975
+8. 17A16QmavnUfCW11DAApiJxp7ARnxN5pGX 6658.9969200099995
+9. 3P2eoKr3vAeZhJcTzon3VFkv5r7DqSXW9G 6091.8635746
+
+top interactors:
+0. 1NDyJtNTjmwk5xPNhjgAMu4HDHigtobu1s 19291
+1. 3FxUA8godrRmxgUaPv71b3XCUxcoCLtUx2 13516
+2. 3AMjuPqBtqAKxn1w3i5JuDXLPc4WkN14uo 7441
+3. 3Aj8abxbwxu5qBP9ENCHWaFeBABj1nR27R 5441
+4. 3NJejkUqP24sNNXiqdfT5hxP6u1aoaoeJF 5430
+5. 1GX28yLjVWux7ws4UQ9FB4MnLH4UKTPK2z 4709
+6. 1N52wHoVR79PMDishab2XmRHsbekCdGquK 4610
+7. 3FqrKwMxuSJZuzXRnkidMaNBxCgKjaVsnB 4287
+8. 346hb9b6qq7XMAhRzQUHTNmMC6GcUpwFSg 3823
+9. 3D4DWbojj7an41MGA5ud4AaMetvZkiFfL9 3822
