@@ -1,15 +1,11 @@
 import random
 import time
 
-class minheap:
-    
+class minheap:   
     def __init__(self):
         self.array = []
-    
-    
             
-    def __getitem__(self, i):
-        
+    def __getitem__(self, i):        
         return self.array[i]
     
     def __setitem__(self, i, a):
@@ -17,28 +13,23 @@ class minheap:
 
     def insert(self, elem):
         self.array.append(elem)
-        i = len(self) - 1
-        
+        i = len(self) - 1       
         while i > 0 and self[(i - 1) // 2] > self[i]:
-            
             self[(i - 1) // 2], self[i] = self[i], self[(i - 1) // 2]
             i = (i - 1) // 2
         
     def __str__(self):
         return ' '.join(map(str, self.array))
-    
-    
-    
+     
     def __len__(self):
         return len(self.array)
     
     def childrennumber(self, i):
-        ans = 0
-        if 2 * i + 1 < len(self):
-            ans += 1
         if 2 * i + 2 < len(self):
-            ans += 1
-        return ans
+            return 2
+        if 2 * i + 1 < len(self):
+            return 1
+        return 0
         
     def extract(self):
         ans = self[0]
@@ -53,8 +44,7 @@ class minheap:
                 self[i], self[min_child] = self[min_child], self[i]
                 i = min_child
             else:
-                i = len(self)
-                    
+                i = len(self)                   
         return ans
     
     
@@ -107,10 +97,8 @@ def merge(B, C):
 
 
 def qsort(A, beg, end):
-    if beg < end:
-        
+    if beg < end:        
         pivot = partition(A, beg, end)
-        
         qsort(A, beg, pivot)
         qsort(A, pivot + 1, end)
     
@@ -135,8 +123,7 @@ def partition(A, beg, end):
             i += 1
         j -= 1
         while A[j] > pivot:
-            j -= 1
-        
+            j -= 1        
         if i >= j:
             return j
         
