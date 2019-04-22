@@ -14,24 +14,23 @@ def get_number(value):
     return float(value[:-3].replace(',', ''))
     
 
-fin = open('whale0.txt')
-Data = fin.read().split('#')
+with open('whale0.txt') as fin:
+    Data = fin.read().split('#')
 size = int(Data[0])
 value = float(Data[1])
 addresses = ['1HXg4ec4rGfNNTAr4jtzSVfeW5XF2nq4ud']
 q = queue.Queue()
 used = set()
 for address in addresses:
-    if address != '':
+    if address:
         q.put(address)
     #used.add(address)
 print('here')
 fout = open('whale0txup.txt', 'a')
 fout2 = open('whale0addr_info4.txt', 'a')
 
-fin_saved_urls = open('saved_urls2.txt')
-saved_urls = set(fin_saved_urls.read().split('\n'))
-fin_saved_urls.close()
+with open('saved_urls2.txt') as fin_saved_urls:
+    saved_urls = set(fin_saved_urls.read().split('\n'))
 
 tx_number = 0
 count = time.clock()
@@ -71,7 +70,7 @@ while not q.empty() and time.clock() - count < 300 and counter < 300: # working 
     while offset < 50:
         url = 'https://www.blockchain.com/ru/btc/address/' 
         url += addr + '?offset=' + str(offset) + '&filter=2&sort=1'
-        if False:
+        if False: # This part is unfinished
             fin_url = open(addr + '.txt', encoding = 'utf8')
             soup = BeautifulSoup(fin_url.read(), "html.parser")
             fin_url.close()
@@ -98,14 +97,12 @@ while not q.empty() and time.clock() - count < 300 and counter < 300: # working 
             inputs = abc[0].contents
             for j in range(len(inputs)): # doing job with input addresses
                 t = inputs[j]
-                if type(t) == bs4.element.NavigableString:
+                if isinstance(t, bs4.element.NavigableString):
                     print(hash_, t)
                     #inp_write_txt += t + '\n' 
                     inp_write_queue.append(t) 
                 else:
                     t = t.text
-                    
-                    #inp_write_txt += t + '\n'
                     inp_write_queue.append(t) 
             outputs = abc[2].contents
             i = 0
@@ -144,16 +141,11 @@ while not q.empty() and time.clock() - count < 300 and counter < 300: # working 
                     #used.add(s)                
             tx_number += 1
         offset += 50
-        
-
-fin.close()
 fout.close()
 fout2.close()
-
-fout = open('whale03left.txt', 'w')
-fout.write('###')
-a = []
-while not q.empty():
-    a.append(q.get())
-fout.write('@'.join(a))
-fout.close()
+with open('whale03left.txt', 'w') as fout:
+    fout.write('###')
+    a = []
+    while not q.empty():
+        a.append(q.get())
+    fout.write('@'.join(a))
